@@ -28,3 +28,7 @@ O site é composto por cinco páginas principais:
 ## 👥 Integrantes
 
 - Rone Cruz Santos
+
+## 🔗 Site publicado
+
+Acesse o site pelo GitHub Pages: [Link para o site](https://sadghostofc.github.io/CP1-frontend/)
