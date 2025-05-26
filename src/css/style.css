@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+}
+header {
+  background-color: #8b0000;
+  color: white;
+  padding: 20px;
+}
+header h1 {
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style: none;
+  display: ruby;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* separação para se organizar */
+.banner {
+  background-image: url("../img/banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.banner h2 {
+  color: black;
+  text-align: center;
+  padding-top: 77px;
+  font-size: 40px;
+}
+.banner p {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* separação para se organizar */
+
+.produtos-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.produtos-item {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #0c0b0b;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  vertical-align: top;
+  
+}
+
+.produtos-container img {
+  height: 200px;
+  width: 100px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* historia */
+
+.historia {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Galeria */
+
+.galeria {
+  width: 500px;
+  height: 330px;
+  margin: 25px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contato */
+
+.formulario {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
